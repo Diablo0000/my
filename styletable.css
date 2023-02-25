@@ -1,0 +1,42 @@
+th{
+	font-size: 30px;
+	font-style: italic;
+	font: blue;
+}
+tr{
+	font-size: 20px;
+	color: #821616;
+}
+body{
+	background: white;
+}
+td, th{
+	border-radius: 10px;
+	border: 2px solid #821616;
+	text-align: center;
+}
+table{
+	width: 800px;
+	border-spacing: 5px;
+}
+.logo{
+	width:200px;
+	height:150px;
+}
+.imgcloth{
+	transition: 1s;
+	height: 180px;
+}
+.imgcloth:hover{
+	transform: scale(1.5);
+}
+span{
+	text-decoration: line-through 2px gray;
+	font-size: 20px;
+	color: gray;
+	font-weight: 10;
+}
+.newprice{
+	font-size: 25px;
+	font-weight: bolder;
+}
